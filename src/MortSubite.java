@@ -8,7 +8,7 @@ public class MortSubite extends Sort{
     }
 
     public void lancerSort(Personnage _perso){
-        if(random.nextInt(9) == 4)
+        if(random.nextInt(10) == 4)
         {
             _perso.setPv(_perso.pv);
         }
