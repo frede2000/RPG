@@ -20,7 +20,7 @@ public abstract class Magicien extends Personnage {
             this.degat -= _persoQuiEstAttaque.getPv();
             this.pMagie -= tabSort[sortRD].cout;
             System.out.print("Le " + this.nom + " utilise " + tabSort[sortRD].getNom() + ", ce qui lui coûte " + tabSort[sortRD].getCout() + " points de magie.\n" +
-                    " Il lui reste " + this.pMagie + " points de magie.\n" +
+                    "Il lui reste " + this.pMagie + " points de magie.\n" +
                     "Le "+ _persoQuiEstAttaque.getNom() +" perd " + degat + " points de vie.");
             if(_persoQuiEstAttaque.getPv() <= 0)
             {
@@ -29,7 +29,7 @@ public abstract class Magicien extends Personnage {
             }
             else
             {
-                System.out.print("Il lui en reste " + _persoQuiEstAttaque.getPv() + ".\n");
+                System.out.print(" Il lui en reste " + _persoQuiEstAttaque.getPv() + ".\n");
             }
 
         }
